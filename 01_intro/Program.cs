@@ -94,16 +94,30 @@
                     break;
             }
         }*/
-        int res;
+        /*int res;
         do
         {
             Console.Write("2 + 2 = ");
             res  = Convert.ToInt32(Console.ReadLine());
 
-        } while (res != 4);
+        } while (res != 4);*/
         // +,-,*,/, %
         // res+= 2;
         //Math.Pow();
+        /*int number = 22;
+        Console.WriteLine(@$"
+            Test
+                    Test
+                      {number}      \n
+            
+            \t tttttt
+        ");*/
+        /*int test = 4;
+        while ((bool)test) // Error
+        {
+            Console.WriteLine("---------");
+        }*/
+
     }
 
     static void Task()
@@ -133,5 +147,13 @@
         // 3) interpolation line 
         Console.WriteLine($"Message :: {str}");
         Console.WriteLine($"Value v * 2 =  {v * 2,-20} ++f = {++f}");
+
+        // 4 
+        Console.WriteLine(@"
+            Test
+                    Test
+                            \n
+            \t tttttt
+        ");
     }
 }
