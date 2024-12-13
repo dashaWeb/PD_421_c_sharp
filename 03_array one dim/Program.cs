@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using System;
+
+internal class Program
 {
     static void Print<T>(T[] arr, string prompt = "")
     {
@@ -115,6 +117,7 @@
         Print(color);
         Array.Sort(color, (s1,s2) => s1.Length.CompareTo(s2.Length));
         Print(color);
+      
     }
     static bool IsPositive(int a) // предикат, логічна функція
     {
