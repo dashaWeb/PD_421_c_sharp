@@ -65,7 +65,7 @@ internal class Program
 
         Console.WriteLine(sum("text",1,2,3,4,5,6,7,8,9,5,4,7,5));
 
-
+        
         /*StringBuilder stringBuilder= new StringBuilder(text);
         stringBuilder[0] = Char.ToLower(stringBuilder[0]);
         Console.WriteLine(stringBuilder.Capacity);
