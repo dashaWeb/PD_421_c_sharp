@@ -17,9 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Intro__class", "06_Intro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_Static___class", "07_Static___class\07_Static___class.csproj", "{006CC872-6C43-42F9-A2B5-7AEA59E628D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Null operator", "08_Null operator\08_Null operator.csproj", "{543D6361-75D2-4C1F-815B-C8E181D94871}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_Null operator", "08_Null operator\08_Null operator.csproj", "{543D6361-75D2-4C1F-815B-C8E181D94871}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Overload operators", "09_Overload operators\09_Overload operators.csproj", "{3FD2F79E-FA6D-4FFD-AC95-90BC067D5C80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Overload operators", "09_Overload operators\09_Overload operators.csproj", "{3FD2F79E-FA6D-4FFD-AC95-90BC067D5C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Matrix_indexers", "10_Matrix_indexers\10_Matrix_indexers.csproj", "{361702F3-6479-41A2-959A-AA38FC9A64EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Exception", "11_Exception\11_Exception.csproj", "{6E373748-0C35-47DD-9EFB-E2E4DC213887}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{3FD2F79E-FA6D-4FFD-AC95-90BC067D5C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FD2F79E-FA6D-4FFD-AC95-90BC067D5C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FD2F79E-FA6D-4FFD-AC95-90BC067D5C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361702F3-6479-41A2-959A-AA38FC9A64EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361702F3-6479-41A2-959A-AA38FC9A64EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361702F3-6479-41A2-959A-AA38FC9A64EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361702F3-6479-41A2-959A-AA38FC9A64EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E373748-0C35-47DD-9EFB-E2E4DC213887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E373748-0C35-47DD-9EFB-E2E4DC213887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E373748-0C35-47DD-9EFB-E2E4DC213887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E373748-0C35-47DD-9EFB-E2E4DC213887}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
