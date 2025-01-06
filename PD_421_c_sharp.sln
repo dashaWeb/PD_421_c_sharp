@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_Null operator", "08_Null
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Overload operators", "09_Overload operators\09_Overload operators.csproj", "{3FD2F79E-FA6D-4FFD-AC95-90BC067D5C80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Matrix_indexers", "10_Matrix_indexers\10_Matrix_indexers.csproj", "{361702F3-6479-41A2-959A-AA38FC9A64EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Matrix_indexers", "10_Matrix_indexers\10_Matrix_indexers.csproj", "{361702F3-6479-41A2-959A-AA38FC9A64EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Exception", "11_Exception\11_Exception.csproj", "{6E373748-0C35-47DD-9EFB-E2E4DC213887}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Exception", "11_Exception\11_Exception.csproj", "{6E373748-0C35-47DD-9EFB-E2E4DC213887}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Inheritance", "12_Inheritance\12_Inheritance.csproj", "{FFE2D075-4233-4073-BE5D-31A0534A11E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{6E373748-0C35-47DD-9EFB-E2E4DC213887}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E373748-0C35-47DD-9EFB-E2E4DC213887}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E373748-0C35-47DD-9EFB-E2E4DC213887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE2D075-4233-4073-BE5D-31A0534A11E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE2D075-4233-4073-BE5D-31A0534A11E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE2D075-4233-4073-BE5D-31A0534A11E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE2D075-4233-4073-BE5D-31A0534A11E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
