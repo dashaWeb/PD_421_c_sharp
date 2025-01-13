@@ -40,7 +40,8 @@
             Console.WriteLine();
         }
         Console.WriteLine();*/
-        foreach (int[] row in arr) {
+        foreach (int[] row in arr)
+        {
             foreach (var item in row)
             {
                 Console.Write($"{item,-20}");
@@ -59,7 +60,7 @@
     }
     static void SwapRows(int[][] arr, int row1, int row2)
     {
-        if(row1 >= 0 && row2 >= 0 && row1 < arr.Length && row2 < arr.Length)
+        if (row1 >= 0 && row2 >= 0 && row1 < arr.Length && row2 < arr.Length)
         {
             int[] tmp = arr[row1]; // посилання на row1
             arr[row1] = arr[row2];
@@ -74,7 +75,7 @@
             Console.WriteLine($"Min :: {row.Min()}");
             Console.WriteLine($"Max :: {row.Max()}");
             Console.WriteLine($"Avg :: {row.Average()}");
-        Console.WriteLine();
+            Console.WriteLine();
         }
     }
     private static void Main(string[] args)
@@ -99,8 +100,9 @@
         fill(arr);
         print(arr);
         Console.WriteLine();
-        SwapRows(arr,0,arr.Length-1);
+        SwapRows(arr, 0, arr.Length - 1);
         print(arr);
         MathRows(arr);
+
     }
 }
