@@ -20,6 +20,7 @@ internal class Program
         Console.WriteLine($"Func avg(10,11) = {funcAvg(10,11)}");
 
         Predicate<string> pred = s => char.IsUpper(s[0]);
+       
         Console.WriteLine($"Has first upper letter :: {pred("Good")}"); // true
         Console.WriteLine($"Has first upper letter :: {pred("error")}"); // false
 
