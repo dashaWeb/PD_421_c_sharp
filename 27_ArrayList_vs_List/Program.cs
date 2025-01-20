@@ -50,6 +50,7 @@ internal class Program
         color.AddRange(new string[] {"blue","white","black" });
         PrintList(color, "Print List");
         color.InsertRange(0, new string[] { "brown", "pink" });
+        color[0] = "blabla";
         PrintList(color, "Print List");
 
         color.Remove("cyan");
@@ -57,8 +58,9 @@ internal class Program
         //color.RemoveAll(w => w.Contains('o'));
         color.Sort();
         PrintList(color, "Print List sort");
-        color.Sort((s1,s2) => -s1.Length.CompareTo(s2.Length));
+        color.Sort((s1,s2) => s1.Length.CompareTo(s2.Length));
         PrintList(color, "Print List sort by length");
+
     }
     static void PrintList(IEnumerable list, string text = "")
     {
