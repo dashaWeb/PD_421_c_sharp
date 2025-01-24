@@ -61,11 +61,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28_SortedList", "28_SortedL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29_Dictionary_vs_sortedDictionary", "29_Dictionary_vs_sortedDictionary\29_Dictionary_vs_sortedDictionary.csproj", "{9342BA7D-784F-4ECE-B981-DD20BDFC9FF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30_FileStream_Demo", "30_FileStream_Demo\30_FileStream_Demo.csproj", "{0CFD30EB-9022-4139-A749-7B33364824E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30_FileStream_Demo", "30_FileStream_Demo\30_FileStream_Demo.csproj", "{0CFD30EB-9022-4139-A749-7B33364824E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31_Binary_Writer_Reader", "31_Binary_Writer_Reader\31_Binary_Writer_Reader.csproj", "{74024E35-0321-4FFC-98CB-FC7D79B617B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31_Binary_Writer_Reader", "31_Binary_Writer_Reader\31_Binary_Writer_Reader.csproj", "{74024E35-0321-4FFC-98CB-FC7D79B617B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32_StreamWriter_Reader", "32_StreamWriter_Reader\32_StreamWriter_Reader.csproj", "{4304C476-318D-46D8-8EA9-5F12B4952565}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "32_StreamWriter_Reader", "32_StreamWriter_Reader\32_StreamWriter_Reader.csproj", "{4304C476-318D-46D8-8EA9-5F12B4952565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33_XML_Serializer", "33_XML_Serializer\33_XML_Serializer.csproj", "{6AF97EDD-4846-44DB-AE68-B5F88765062F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34_JSON_Serializer", "34_JSON_Serializer\34_JSON_Serializer.csproj", "{BFC7166C-3515-49BE-91B9-6732AE1FA2EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +205,14 @@ Global
 		{4304C476-318D-46D8-8EA9-5F12B4952565}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4304C476-318D-46D8-8EA9-5F12B4952565}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4304C476-318D-46D8-8EA9-5F12B4952565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF97EDD-4846-44DB-AE68-B5F88765062F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF97EDD-4846-44DB-AE68-B5F88765062F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF97EDD-4846-44DB-AE68-B5F88765062F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF97EDD-4846-44DB-AE68-B5F88765062F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC7166C-3515-49BE-91B9-6732AE1FA2EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC7166C-3515-49BE-91B9-6732AE1FA2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC7166C-3515-49BE-91B9-6732AE1FA2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC7166C-3515-49BE-91B9-6732AE1FA2EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
