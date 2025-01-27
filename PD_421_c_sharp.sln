@@ -67,9 +67,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31_Binary_Writer_Reader", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "32_StreamWriter_Reader", "32_StreamWriter_Reader\32_StreamWriter_Reader.csproj", "{4304C476-318D-46D8-8EA9-5F12B4952565}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33_XML_Serializer", "33_XML_Serializer\33_XML_Serializer.csproj", "{6AF97EDD-4846-44DB-AE68-B5F88765062F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "33_XML_Serializer", "33_XML_Serializer\33_XML_Serializer.csproj", "{6AF97EDD-4846-44DB-AE68-B5F88765062F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34_JSON_Serializer", "34_JSON_Serializer\34_JSON_Serializer.csproj", "{BFC7166C-3515-49BE-91B9-6732AE1FA2EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "34_JSON_Serializer", "34_JSON_Serializer\34_JSON_Serializer.csproj", "{BFC7166C-3515-49BE-91B9-6732AE1FA2EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35_File_and_FileInfo", "34_File_and_FileInfo\35_File_and_FileInfo.csproj", "{8855419C-66D0-4897-B343-8FD8244C2397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36_Directory_and_DirectoryInfo", "36_Directory_and_DirectoryInfo\36_Directory_and_DirectoryInfo.csproj", "{447ADB33-FDAF-4BEC-ADA9-3281360B67B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +217,14 @@ Global
 		{BFC7166C-3515-49BE-91B9-6732AE1FA2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFC7166C-3515-49BE-91B9-6732AE1FA2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFC7166C-3515-49BE-91B9-6732AE1FA2EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8855419C-66D0-4897-B343-8FD8244C2397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8855419C-66D0-4897-B343-8FD8244C2397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8855419C-66D0-4897-B343-8FD8244C2397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8855419C-66D0-4897-B343-8FD8244C2397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447ADB33-FDAF-4BEC-ADA9-3281360B67B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447ADB33-FDAF-4BEC-ADA9-3281360B67B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447ADB33-FDAF-4BEC-ADA9-3281360B67B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447ADB33-FDAF-4BEC-ADA9-3281360B67B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -72,9 +72,9 @@ internal class Program
         }*/
 
         //File.WriteAllText(fList,JsonConvert.SerializeObject(dicCars));
-        foreach (var item in JsonConvert.DeserializeObject<Dictionary<int,Car>>(File.ReadAllText(fList)))
+        /*foreach (var item in JsonConvert.DeserializeObject<Dictionary<int,Car>>(File.ReadAllText(fList)))
         {
             Console.WriteLine($"{item.Key} -- {item.Value}");
-        }
+        }*/
     }
 }
