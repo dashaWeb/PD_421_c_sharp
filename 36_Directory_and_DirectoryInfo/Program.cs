@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Linq;
+using System.Text;
 
 internal class Program
 {
@@ -22,7 +23,7 @@ internal class Program
         /*string[] fnames = Directory.GetFiles(".","a*.*"); // список файлів що починаються на букву а
         Console.WriteLine(String.Join<string>("\n",fnames));*/
 
-        string[] fnames = Directory.GetFiles(".","*.*",SearchOption.AllDirectories); // зайде у під-папки теж
+        string[] fnames = Directory.GetFiles(".","*.txt",SearchOption.AllDirectories); // зайде у під-папки теж
         Console.WriteLine(String.Join<string>("\n",fnames));
         foreach (var item in fnames)
         {
@@ -60,5 +61,6 @@ internal class Program
         {
             Console.WriteLine($"{item.Name}  :: {item.Length}");
         }
+        
     }
 }

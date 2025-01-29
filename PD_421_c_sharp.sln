@@ -71,9 +71,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "33_XML_Serializer", "33_XML
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "34_JSON_Serializer", "34_JSON_Serializer\34_JSON_Serializer.csproj", "{BFC7166C-3515-49BE-91B9-6732AE1FA2EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35_File_and_FileInfo", "34_File_and_FileInfo\35_File_and_FileInfo.csproj", "{8855419C-66D0-4897-B343-8FD8244C2397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "35_File_and_FileInfo", "34_File_and_FileInfo\35_File_and_FileInfo.csproj", "{8855419C-66D0-4897-B343-8FD8244C2397}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36_Directory_and_DirectoryInfo", "36_Directory_and_DirectoryInfo\36_Directory_and_DirectoryInfo.csproj", "{447ADB33-FDAF-4BEC-ADA9-3281360B67B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "36_Directory_and_DirectoryInfo", "36_Directory_and_DirectoryInfo\36_Directory_and_DirectoryInfo.csproj", "{447ADB33-FDAF-4BEC-ADA9-3281360B67B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37_LINQ_to_Object", "37_LINQ_to_Object\37_LINQ_to_Object.csproj", "{4FB90EA4-D90D-4728-9C00-72626A96FC16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "38_Linq_to_Collection_with_object", "38_Linq_to_Collection_with_object\38_Linq_to_Collection_with_object.csproj", "{043BA8A4-589C-4083-A1A4-93F2BA857EFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +229,14 @@ Global
 		{447ADB33-FDAF-4BEC-ADA9-3281360B67B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{447ADB33-FDAF-4BEC-ADA9-3281360B67B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{447ADB33-FDAF-4BEC-ADA9-3281360B67B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB90EA4-D90D-4728-9C00-72626A96FC16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB90EA4-D90D-4728-9C00-72626A96FC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB90EA4-D90D-4728-9C00-72626A96FC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB90EA4-D90D-4728-9C00-72626A96FC16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{043BA8A4-589C-4083-A1A4-93F2BA857EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{043BA8A4-589C-4083-A1A4-93F2BA857EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{043BA8A4-589C-4083-A1A4-93F2BA857EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{043BA8A4-589C-4083-A1A4-93F2BA857EFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
